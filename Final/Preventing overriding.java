@@ -18,3 +18,10 @@ public class Main
 		obj.Area();
 	}
 }
+/*Output
+Main.java:16: error: Area() in Circle cannot override Area() in Shape
+    void Area(){
+         ^
+  overridden method is final
+1 error
+/
